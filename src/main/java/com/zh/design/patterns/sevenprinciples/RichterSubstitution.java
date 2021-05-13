@@ -13,23 +13,23 @@ public class RichterSubstitution {
  */
 class car {
 
-    public int getSpeed(int brand){
-        return brand+100;
+    public int getSpeed(int brand) {
+        return brand + 100;
     }
 
-    public String getCarName(String brand){
-        return brand+"car";
+    public String getCarName(String brand) {
+        return brand + "car";
     }
 }
 
-class DaZhong extends car{
-    public String kouHao(){
+class DaZhong extends car {
+    public String kouHao() {
         return "大众汽车，天下第一";
     }
 }
 
-class BenTian extends car{
-    public String kouHao(){
+class BenTian extends car {
+    public String kouHao() {
         return "本田汽车，天下第一";
     }
 }

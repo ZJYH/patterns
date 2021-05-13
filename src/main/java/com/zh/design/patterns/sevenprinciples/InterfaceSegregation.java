@@ -1,5 +1,7 @@
 package com.zh.design.patterns.sevenprinciples;
 
+import java.util.List;
+
 /**
  * 接口隔离原则
  * 一个类应该只与它需要的最小接口建立联系，如果接口有多余方法，应该进行拆解
@@ -25,6 +27,7 @@ class B implements A{
 
     @Override
     public void moth1() {
+
 
     }
 

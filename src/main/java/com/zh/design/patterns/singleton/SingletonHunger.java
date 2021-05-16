@@ -10,7 +10,7 @@ import org.omg.CORBA.PRIVATE_MEMBER;
  * 4.静态内部类
  * 5.枚举
  */
-public class singleton_hunger {
+public class SingletonHunger {
     /**
      * 饿汉式
      * 	构造器私有化
